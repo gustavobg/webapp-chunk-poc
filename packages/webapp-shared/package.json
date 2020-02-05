@@ -1,0 +1,23 @@
+{
+  "name": "@webapp/shared",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "types": "dist/index",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "npm run clean && npm run compile",
+    "clean": "rm -rf ./dist",
+    "compile": "tsc -p tsconfig.build.json"
+  },
+  "dependencies": {
+    "@webapp/shared": "^1.0.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^3.7.5"
+  }
+}

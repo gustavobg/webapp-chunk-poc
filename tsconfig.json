@@ -1,0 +1,10 @@
+{
+  "extends": "./tsconfig.build.json",
+  "compilerOptions": {
+    "baseUrl": "./packages",
+    "paths": {
+      "@webapp/app": ["webapp/src"],
+      "@webapp/shared": ["webapp-shared/src"],
+    }
+  }
+}
