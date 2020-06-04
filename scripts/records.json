@@ -1,0 +1,26 @@
+{
+  "html-webpack-plugin for \"index.html\"": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {},
+        "bySource": {},
+        "usedIds": [
+          1
+        ]
+      }
+    }
+  ],
+  "modules": {
+    "byIdentifier": {},
+    "usedIds": {}
+  },
+  "chunks": {
+    "byName": {},
+    "bySource": {},
+    "usedIds": []
+  }
+}

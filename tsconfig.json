@@ -1,10 +1,14 @@
 {
-  "extends": "./tsconfig.build.json",
   "compilerOptions": {
-    "baseUrl": "./packages",
-    "paths": {
-      "@webapp/app": ["webapp/src"],
-      "@webapp/shared": ["webapp-shared/src"],
-    }
+    "baseUrl": "./src",
+    "module": "commonjs",
+    "target": "es5",
+    "sourceMap": true,
+    "jsx": "react",
+    "lib": [
+      "dom",
+      "es2018",
+      "es2015"
+    ]
   }
 }
